@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*Changes the font size and positioning of the links in the header*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*Changes the font, size and positioning of the links*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/**/
+ul {
+    list-style-type: none;
+    text-decoration-style: none;
+}
+/*Makes the list of links go horizontal instead of vertical*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(58, 1, 58);
+    color: #ffffff;
+}
+/*Changes the font size and positioning of the links in the header*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*Changes the font, size and positioning of the links*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/**/
+.header div ul {
+    list-style-type: none;
+}
+/*Makes the list of links go horizontal instead of vertical*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*Keeps the links white*/
+.header a {
+    color: #ffffff;
+}
+
+.left {
+    float: left;
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 180px;
+    height: 331px;
+    border-right: solid;
+    text-align: center;  
+    text-justify: center;
+}
+
+.left-middle {
+    float: left;
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 180px;
+    height: 900px;
+    border-right: solid;
+    text-align: center;  
+    text-justify: center;
+}
+
+body {
+    background-color: rgb(245, 191, 245)
+}
+
+.small-image {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.big-image {
+    width: 1611px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait {
+    width: 255px;
+    height: 330px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: darkgreen;
+}
+
+.photo-text {
+    position: relative;
+}
+
+.about-me p {
+    float:right;
+}
