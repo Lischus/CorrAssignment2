@@ -35,7 +35,7 @@ ul {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(58, 1, 58);
+    background-color: rgb(1, 5, 58);
     color: #ffffff;
 }
 /*Changes the font size and positioning of the links in the header*/
@@ -68,7 +68,6 @@ ul {
     padding-left: 40px;
     width: 180px;
     height: 331px;
-    border-right: solid;
     text-align: center;  
     text-justify: center;
 }
@@ -80,7 +79,6 @@ ul {
     padding-left: 40px;
     width: 180px;
     height: 900px;
-    border-right: solid;
     text-align: center;  
     text-justify: center;
 }
@@ -92,13 +90,12 @@ ul {
     padding-left: 40px;
     width: 180px;
     height: 331px;
-    border-right: solid;
     text-align: center;  
     text-justify: center;
 }
 
 body {
-    background-color: rgb(245, 191, 245)
+    background-color: rgb(191, 234, 245)
 }
 
 .small-image {
@@ -113,6 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .portrait {
@@ -123,11 +121,6 @@ body {
 
 img {
     max-width: 100%;
-}
-
-#past-work img {
-    max-width: 100%;
-    border: coral solid 5px;
 }
 
 .container {
